@@ -6,7 +6,7 @@ import 'package:flutter_jwt_auth/services/manage_secure_storage.dart';
 import 'manage_shared_preferences.dart';
 
 class WordPressAuthMethods {
-  final String _baseUrl = 'https://scriptyuvasi.com/';
+  final String _baseUrl = 'http://a0978186.xsph.ru/';
   final String _wpApiPath = 'wp-json/jwt-auth/v1/';
   final String _wpTokenPath = 'token';
   final String _wpTokenValidatePath = 'token/validate';

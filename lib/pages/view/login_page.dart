@@ -66,7 +66,7 @@ class _LoginPageState extends State<LoginPage> {
 
                     // title
                     Text(
-                      'Sign in to Scriptyuvasi',
+                      'Sign in to WP test app',
                       style: AppFonts.large(),
                     ),
                     const SizedBox(height: 10),
@@ -114,7 +114,7 @@ class CreateAccount extends StatelessWidget {
         color: Colors.white,
         borderRadius: BorderRadius.circular(10),
       ),
-      child: Row(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(

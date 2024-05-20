@@ -2,6 +2,11 @@
 
 This Flutter application is designed to facilitate the login process to a Wordpress site using the JWT Authentication API obtained from the [Tmeister/wp-api-jwt-auth repository](https://github.com/Tmeister/wp-api-jwt-auth). The application allows users to register, log in, and access specific pages. It provides a secure and scalable architecture by implementing JWT token-based authentication.
 
+# Wordpress notes 
+ - Integrated with the wordpress test site http://a0978186.xsph.ru/
+ - To connect to another site, change the base_url and configure the wordpress plugin TMeister JWT Auth and add functions for registering and getting a user ID according to the instructions below.
+ - Don't forget to add the missing functions to register and get an id in the plugin.
+
 ## Features
 
 - JWT Authentication app with Flutter
@@ -45,7 +50,7 @@ Follow the steps below to run the project in your local environment.
 1. Clone the project:
 
    ```bash
-   git clone https://github.com/nurullahturkoglu/flutter-jwt-auth-for-wordpress.git
+   git clone https://github.com/SoftTeco/flutter-jwt-auth-for-wordpress.git
 
 2. Install the required dependencies:
 
@@ -221,3 +226,4 @@ Please ensure that your contributions adhere to the coding conventions and guide
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](/path/to/LICENSE) file for details.
+Modifications copyright (C) 2024 SoftTeco LLC
